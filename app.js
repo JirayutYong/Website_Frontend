@@ -11,10 +11,10 @@ let text ='';
     SelectedText = typeString[count];
     text = SelectedText.slice(0,++i);
     document.getElementById("typing").innerHTML = text;
-    /*if(text.length === SelectedText.length){
+    if(text.length === SelectedText.length){
         count++;
         i=0;
-    }*/
+    }
     setTimeout(type,190);
 
 }());
