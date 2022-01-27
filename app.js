@@ -1,4 +1,4 @@
-let typeString = ["Welcome to Clearnote !"];
+let typeString = ["Welcome to Clearnote !              "];
 let i = 0;
 let count =0;
 let SelectedText = '';
