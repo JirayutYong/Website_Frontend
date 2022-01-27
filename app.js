@@ -25,8 +25,3 @@ let navBarToggle = document.getElementById('js-nav-toggle');
 navBarToggle.addEventListener("click",function(){
     mainNav.classList.toggle('active')
 })
-
-
-
-/*https://unsplash.com/s/photos/note*/
-
