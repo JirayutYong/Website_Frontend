@@ -18,4 +18,5 @@ let text ='';
     setTimeout(type,190);
 
 }());
+/*https://unsplash.com/s/photos/note*/
 

@@ -15,9 +15,6 @@ body {
     background-size:cover;
 }
 .header p{
-    position: absolute;
-    left:780px;
-    top:220px;
     font-size: 3em;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
