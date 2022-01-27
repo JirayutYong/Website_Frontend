@@ -91,7 +91,7 @@ ul li:hover{
     position: absolute;
     top:-15%;
     width:8px;
-    height: 180%;
+    height: 220%;
     border-right:4px solid #333 ;
     animation: blink 0.7s infinite ease;
 }
