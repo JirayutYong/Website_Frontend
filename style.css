@@ -104,7 +104,7 @@ button{
     position: relative;
     margin: 20px;
     transition: all 0.25s ease;
-    top:50px;
+    top:10%;
 }
 .btn-1:hover::after{
     transform: translate(-5px,-5px);
@@ -125,6 +125,65 @@ button{
     bottom: 0;
     transition: all 0.25s ease;
    
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+/* Copy this @keyframes block to your CSS*/
+@keyframes Anime {
+    0.0%{
+        color: transparent;
+    }
+    100%{
+        color: transparent;
+    }
+    49.9%{
+        transform: translate(200px,20px) scale(1.8);
+        color: black;
+    }
+}
+@keyframes Anime2 {
+    0.0%{
+        color: transparent;
+    }
+    100%{
+        color: transparent;
+    }
+    49.9%{
+        transform: translate(-185px,-20px) scale(1.5);
+        color: black;
+    }
+}
+
+.targetElement{
+    position: absolute;
+    left:220px;
+    color:var(--text);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 65px;
+    transform-origin: center center;    
+    animation:Anime 7s ease 0s infinite normal none;
+}
+.targetElement2{
+    position: absolute;
+    left:700px;
+    color:var(--text);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 65px;
+    transform-origin: center center;    
+    animation:Anime2 7s ease 0s infinite normal none;
 }
 @media screen and (min-width: 1000px) {
     nav{
@@ -165,14 +224,14 @@ button{
         transition: all 0.25s ease;
         top:150px;
     }
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
+    .targetElement{
+        font-size: 5rem;
+        top:20%;
+        left:20%;
     }
-    100%{
-        opacity: 100%;
+    .targetElement2{
+        font-size: 5rem;
+        top:25%;
+        left:80%;
     }
-    
 }
