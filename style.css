@@ -139,7 +139,7 @@ button{
     }
     
 }
-
+/* Copy this @keyframes block to your CSS*/
 @keyframes Anime {
     0.0%{
         color: transparent;
@@ -194,7 +194,7 @@ button{
     position: absolute;
     top:0;
     left:0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +205,7 @@ button{
     height: 80px;
     position: absolute;
     top:37%;
-    border: 8px solid rgb(0, 0, 0);
+    border: 8px solid rgb(255, 255, 255);
     border-radius: 10px;
     animation: loader 8s infinite ease;
   }
@@ -213,14 +213,14 @@ button{
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: rgb(245, 142, 142);
+    background-color: rgb(235, 159, 159);
     border-radius: 1px;
     animation: loader-inner 3s infinite ease-in;
   }
   @keyframes loader {
-    0% { transform: rotate(0deg)scale(0.01);}
-    25% { transform: rotate(360deg)scale(5);}
-    28% { transform:scale(5)}
+    0% { transform: rotate(0deg);}
+    20% { transform: rotate(180deg)scale(5);}
+    50% { transform: rotate(180deg)scale(5);}
   }
   @keyframes loader-inner {
     0% { height: 100%;}
@@ -229,20 +229,6 @@ button{
     75% { height: 0%;}
     100% { height: 0%;}
   }
-
-  @media screen and (min-width: 620px) {
-    .targetElement{
-        font-size: 5rem;
-        top:53%;
-        left:20%;
-    }
-    .targetElement2{
-        font-size: 5rem;
-        top:55%;
-        left:72%;
-    }
- 
-}
 @media screen and (min-width: 1000px) {
     nav{
         height: 50px;
