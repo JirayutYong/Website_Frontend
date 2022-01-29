@@ -233,6 +233,20 @@ button{
     75% { height: 0%;}
     100% { height: 0%;}
   }
+
+  @media screen and (min-width: 620px) {
+    .targetElement{
+        font-size: 5rem;
+        top:53%;
+        left:20%;
+    }
+    .targetElement2{
+        font-size: 5rem;
+        top:55%;
+        left:72%;
+    }
+ 
+}
 @media screen and (min-width: 1000px) {
     nav{
         height: 50px;
