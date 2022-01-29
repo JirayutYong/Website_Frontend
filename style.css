@@ -202,12 +202,12 @@ button{
 }
 
 .loader {
-    width: 75px;
-    height: 80px;
+    width: 55px;
+    height: 60px;
     position: absolute;
     top:37%;
-    border: 8px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
     animation: loader 8s infinite ease;
   }
   .loader-inner {
@@ -215,7 +215,7 @@ button{
     display: inline-block;
     width: 100%;
     background-color: rgb(235, 159, 159);
-    border-radius: 1px;
+    border-radius: 3px;
     animation: loader-inner 3s infinite ease-in;
   }
   @keyframes loader {
