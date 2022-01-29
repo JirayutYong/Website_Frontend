@@ -168,6 +168,7 @@ button{
 .targetElement{
     position: absolute;
     left:220px;
+    top:100%;
     color:var(--text);
     border-radius: 50%;
     height: 100px;
@@ -190,7 +191,7 @@ button{
 
 .loader-wrapper {
     width: 100%;
-    height: 120%;
+    height: 107%;
     position: absolute;
     top:0;
     left:0;
@@ -229,6 +230,19 @@ button{
     75% { height: 0%;}
     100% { height: 0%;}
   }
+  @media screen and (min-width: 620px) {
+    .targetElement{
+        font-size: 5rem;
+        top:53%;
+        left:20%;
+    }
+    .targetElement2{
+        font-size: 5rem;
+        top:55%;
+        left:72%;
+    }
+
+}
 @media screen and (min-width: 1000px) {
     nav{
         height: 50px;
