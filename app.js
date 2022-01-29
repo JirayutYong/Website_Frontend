@@ -26,6 +26,3 @@ navBarToggle.addEventListener("click",function(){
     mainNav.classList.toggle('active')
 })
 
-$(window).on("load",function(){
-    $(".loader-wrapper").fadeOut("slow");
-  });
