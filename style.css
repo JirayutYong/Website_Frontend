@@ -139,7 +139,7 @@ button{
     }
     
 }
-/* Copy this @keyframes block to your CSS*/
+
 @keyframes Anime {
     0.0%{
         color: transparent;
@@ -220,11 +220,7 @@ button{
   @keyframes loader {
     0% { transform: rotate(0deg)scale(0.01);}
     25% { transform: rotate(360deg)scale(5);}
-    50% { transform: rotate(-360deg)scale(0.01);}
-    75% { transform: rotate(-360deg);}
-    100% { transform: rotate(-360deg);}
-
-    
+    28% { transform:scale(5)}
   }
   @keyframes loader-inner {
     0% { height: 100%;}
